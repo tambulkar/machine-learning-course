@@ -1,6 +1,7 @@
 # Data Preprocessing Template
 import os
-os.chdir('Part 1 - Data Preprocessing')
+if ('Part-1-Data-Preprocessing' not in os.getcwd()):
+    os.chdir('Part-1-Data-Preprocessing')
 
 # Importing the libraries
 import numpy as np
